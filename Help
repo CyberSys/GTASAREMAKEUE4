@@ -1,0 +1,25 @@
+introduction
+
+many actions, relationships or information are stored inside .csv files. They are found in *data/ .
+to create a file you can simply follow these instructions:
+https://docs.unrealengine.com/en-US/Gameplay/DataDriven/index.html
+These instructions don't cover all information but it is possible to import color-,vector-and scalarcurves, gameplay
+data, reference all kinds of files that are available in ue4.
+
+performance
+it is blazingly fast to iterate over the data tables, having thousand of rows inside a data table is no problem, 
+it is lazily loaded, thus allowing to load just specific information or assets.
+
+example usage
+1. cause referencing assets inside those files is possible it is easy as pie to spawn any pawn in the world by 
+using commands/name variables. eg. *data/bp_parked_car_generator has the function *set_parked_car that takes in
+three variables:
+'name' (desired car)
+'vector' (spawn location)
+'float' (spawn z-rotation)
+it spawns any car that is referenced inside the file *data/vehicle/dat_vehicle. the blueprint is position in the persistent
+world and can be triggered from anywhere, thus cars that are spawned this way are also spawned in the world and are not 
+depending on the level streaming system. the car might not spawn in levels that are unloaded are fall through the world as soon 
+a sub level gets unloaded because of missing collisions. in future a kill volume shall take controll over this to destroy such
+a pawn or the pawn shall be unloaded if too far away from all players.
+
