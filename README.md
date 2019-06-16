@@ -8,6 +8,13 @@ Pepare the Project:
     *Navigation Mesh -> Runtime Generation: Dynamic
     *Navigation Mesh -> Fixed Tile Pool Size: Enabled
 
+Idea of this project:
+the project (and final game) is meant to be really similar to the original game grand theft auto san andreas. this implicates
+the use of original assets (meshes, textures...) and a similar gameplay. but that's is not all. cause the game shouldn't be 
+an exact copy of the original there are some improvements (user-friendly interface, multiplayer capability, many features of 
+the unreal engine and so on...). having something similar to the current GTA Online experience would be great with the old
+game as base. when we hit this milestone the game can still be improved and filled with own assets.
+
 jobs and dependencies:
 1. global clock
     -timecycle
