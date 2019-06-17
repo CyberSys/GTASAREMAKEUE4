@@ -2,6 +2,7 @@
 Readme is WIP
 
 Pepare the Project:
+-  Unreal Engine 4.22.1
 -  before opening the project for the first time enable the LPV by following this doc: 
    https://docs.unrealengine.com/en-US/Engine/Rendering/LightingAndShadows/LightPropagationVolumes/index.html
 -  In the project settings control and/or adjust the following settings:
