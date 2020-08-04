@@ -14,7 +14,7 @@
 		},
 		{
 			"Name": "VictoryBPLibrary",
-			"Enabled": false,
+			"Enabled": true,
 			"MarketplaceURL": "http://www.ue4code.com"
 		},
 		{
