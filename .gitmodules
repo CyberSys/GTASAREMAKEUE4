@@ -1,0 +1,7 @@
+[submodule "Plugins/VictoryPlugin"]
+	path = Plugins/VictoryPlugin
+	url = https://github.com/EverNewJoy/VictoryPlugin.git
+[submodule "Plugins/HoudiniNiagara"]
+	path = Plugins/HoudiniNiagara
+	url = https://github.com/sideeffects/HoudiniNiagara.git
+	branch = UE4.26
